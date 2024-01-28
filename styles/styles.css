@@ -61,7 +61,6 @@ body
 
 .hero-thesis
 {
-  font-family: "PT Sans", Arial, sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -71,19 +70,129 @@ body
 
 .description-thesis
 {
-  font-family: "PT Sans", Arial, sans-serif;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-
 }
 
-/*.advantages-list-beginning li
-{
-  list-style: none;
-}*/
+
+
 .advantages-item-beginning
 {
   color: #fff;
   background-color: #82B3D3;
+  background-image: url('../images/Rectangle 125.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+  text-align: center;
+}
+
+.advantages-item-beginning p
+{
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-item-continuation
+{
+  color: #333;
+  font-size: 18px;
+  line-height: 21px;
+  background: #83B3D31F;
+  background-image: url('../images/Rectangle 125-1.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 45%;
+  text-align: center;
+}
+
+.advantages-item-centr
+{
+  color: #333;
+  font-size: 18px;
+  line-height: 21px;
+  background: rgba(131, 179, 211, 0.20);
+  background-image: url('../images/Rectangle 125-1.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 45%;
+  text-align: center;
+}
+
+.advantages-item-finish
+{
+  color: #fff;
+  background-color: #82B3D3;
+  background-image: url('../images/Rectangle 125.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+  text-align: center;
+}
+
+.advantages-item-finish p
+{
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages h2
+{
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.appeal-invitation
+{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.appeal-advantage
+{
+  font-size: 22px;
+  line-height: 26px;
+  color: #333;
+  text-align: center;
+}
+
+.services-list p
+{
+  font-size: 18px;
+  line-height: 21px;
+  color: #333;
+  text-align: center;
+}
+
+.services-housing
+{
+  padding-top: 90px;
+  background-image: url('../images/housing-opt.svg');
+  background-position: 50% 10%;
+  background-color: #83B3D31F;
+  background-repeat: no-repeat;
+}
+.services-food
+{
+  padding-top: 90px;
+  background-image: url('../images/food-opt.svg');
+  background-position: 50% 10%;
+  background-repeat: no-repeat;
+}
+.services-souvenir
+{
+  padding-top: 90px;
+  background-image: url('../images/souvenir-opt.svg');
+  background-position: 50% 10%;
+  background-color: #83B3D31F;
+  background-repeat: no-repeat;
+}
+.services-list h2
+{
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
 }
